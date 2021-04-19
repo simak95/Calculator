@@ -46,3 +46,7 @@ class Calculate:
         self.result = division(x, y)
         return self.result
 
+    def square(self, x):
+        self.result = square(x)
+        return self.result
+
