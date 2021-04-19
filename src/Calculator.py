@@ -1,7 +1,30 @@
-from src.Subtraction import Subtraction
-from Calculator.Addition import
+def addition(x, y):
+    return x + y
 
-class Calculator:
+
+def subtraction(x, y):
+    return x - y
+
+
+def multiplication(x, y):
+    return x * y
+
+
+def division(x, y):
+    z = round(y / x, 7)
+    return z
+
+
+def square(x):
+    return x * x
+
+
+def square_root(x):
+    z = round(x ** (1 / 2), 7)
+    return z
+
+
+class Calculate:
     result = 0
 
     def __init__(self):
@@ -30,4 +53,3 @@ class Calculator:
     def square_root(self, x):
         self.result = square_root(x)
         return self.result
-
