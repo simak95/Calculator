@@ -38,3 +38,7 @@ class Calculate:
         self.result = subtraction(x, y)
         return self.result
 
+    def multiply(self, x, y):
+        self.result = multiplication(x, y)
+        return self.result
+
