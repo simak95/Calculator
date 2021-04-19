@@ -34,3 +34,7 @@ class Calculate:
         self.result = addition(x, y)
         return self.result
 
+    def subtract(self, x, y):
+        self.result = subtraction(x, y)
+        return self.result
+
