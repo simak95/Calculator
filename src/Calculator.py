@@ -50,3 +50,6 @@ class Calculate:
         self.result = square(x)
         return self.result
 
+    def square_root(self, x):
+        self.result = square_root(x)
+        return self.result
